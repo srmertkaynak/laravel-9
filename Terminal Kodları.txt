@@ -1,0 +1,23 @@
+- Yeni laravel projesi oluşturma:
+composer create-project laravel/laravel db-and-migrations(tablo adı)
+
+- Localde projeyi ayağa kaldırma
+php artisan serve
+
+- SayfaSeeder isminde bir seeder oluşturma
+php artisan make:seeder SayfaSeeder
+
+- Post modeli oluşturma
+php artisan make:model Post
+
+- Post Factory'si oluşturma
+php artisan make:factory Post
+
+- Post isminde bir tablo yaratma
+php artisan make:migration create_post_table
+
+- Migration ile oluşturulan tabloyu phpmyadmindeki databaseye gönderme:
+php artisan migrate
+
+- Verileri veritabanına gönderme(seed etme):
+php artisan db:seed
