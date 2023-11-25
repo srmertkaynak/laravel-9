@@ -109,7 +109,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => 'tr_TR', // Verilerin türkçe üretilmesini istiyorsak tr_TR yapıcaz. varsayılan: en_US
 
     /*
     |--------------------------------------------------------------------------
